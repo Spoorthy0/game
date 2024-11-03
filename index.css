@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: bisque;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+      
+}
+#container{
+    font-size: 3rem;
+
+}
+.container button{
+    padding:0rem;
+    font-size: 5rem;
+    min-width: 160px;
+    border-radius: 350px;
+    margin: 0 10px;
+    background-color: blueviolet;
+    transition: background-color 0.5s ease;
+
+}
+.container button:hover{
+    background-color: rgb(96, 19, 168);
+}
+#playerInput{
+   font-size: 2rem;
+}
+#computerInput{
+   font-size: 2rem;
+}
+#resultDisplay{
+    font-size: 4rem;
+    margin:30px 0
+}
+#playerScoreDisplay,#computerScoreDisplay{
+    font-size: 1.5rem;
+}
